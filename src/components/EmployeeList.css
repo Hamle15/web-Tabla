@@ -1,0 +1,107 @@
+.employee-list-container {
+  margin: 20px;
+}
+
+.employee-table {
+  width: 100%;
+}
+
+.employee-table th,
+.employee-table td {
+  text-align: center;
+}
+
+.progress-bar {
+  height: 20px;
+}
+
+.pagination-container li {
+  list-style-type: none;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-link {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.pagination-link:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination-link-active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-link-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.employee-list-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f8f8f8;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.employee-table td.progress-cell {
+  padding: 0;
+}
+
+.employee-table .progress-bar {
+  margin: 0;
+}
+
+.employee-table td.status-cell {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.employee-table td.status-cell span {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.employee-table td.status-cell .active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.employee-table td.status-cell .inactive {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.employee-list-container h1 {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
